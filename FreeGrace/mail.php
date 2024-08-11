@@ -3,7 +3,7 @@
         $email = $_POST['email'];
         $message = $_POST['message'];
         $formcontent="From: $email  \nMessage: $message";
-        $recipient = "faithalone.net@gmail.com";
+        $recipient = "freegracecentral@gmail.com";
         $subject = "You've been contacted";
         $mailheader = "From: faithal9@faithalone.net \r\n";
         mail($recipient, $subject, $formcontent, $mailheader);
